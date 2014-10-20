@@ -18,7 +18,7 @@
             success: function (result) {
 
                 $('.chats').find('li').remove();
-                if (result) {
+                if (result.chat) {
                     $('.chats').append(result.chat);
                     $('.header').children().remove();
                     $('.header ').append(result.header);
