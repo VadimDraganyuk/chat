@@ -28,6 +28,10 @@ CREATE TABLE IF NOT EXISTS `users` (
   UNIQUE KEY `uniq_email` (`email`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
+
+-- добавляем адміна: логін - admin , пароль - 123456
+INSERT INTO `users` (`id`, `email`, `username`,  `password`) VALUES(1, 'admin@test.com','admin' ,'f14670a77eaf83ef049d1f88429052b5');
+
 CREATE TABLE IF NOT EXISTS `user_tokens` (
   `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` int(11) UNSIGNED NOT NULL,

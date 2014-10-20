@@ -47,6 +47,8 @@ $(document).ready(function () {
             }
         })
     });
+setInterval(' $(".reload").click()', 600000)
+
 })
 
 $(document).on('click', '#minimess', function () {
