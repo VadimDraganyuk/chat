@@ -1,0 +1,138 @@
+body {
+	background-color: #fafafa !important;
+}
+.page-content {
+	margin-left: 0px;
+	margin-top: 0px;
+	min-height: 0px;
+}
+.bg_regis	{
+	/*background: url("../img/bg_regis.png") no-repeat;*/
+	background-size: cover;
+	float: left;
+	width: 1000px;
+	position:relative;
+}
+.p_wrap	{
+	font-family: Arial, helvetica, sans-serif;
+	margin: 0 auto;
+	min-height: 100%;
+	width: 100%;
+}
+.p_wrapInner	{
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+	width: 100%;
+}
+.webmail_pic	{
+	float: left;
+	height: 93px;
+	margin: 100px 440px 30px 440px;
+	width: 120px;
+}
+.webmail_wrap .errors {
+	float:left;
+	margin:10px 0 10px 380px;
+}
+.webmail_form	{
+	float: left;
+	margin: 0 380px 110px 380px;
+	width: 240px;
+}
+.fieldwrap_2	{
+	float: left;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+.fieldwrap_2 input[type='text']	{
+	background: #fff;
+	border: 1px solid #cac7c7;
+	border-radius: 5px 5px 0 0;
+	box-shadow: inset 0px 2px 5px #d6d7d7;
+	color: #444;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	height: 38px;
+	line-height: 18px;
+	padding: 0 0 0 30px;
+	width: 208px;
+}
+.fieldwrap_2 input[type='password']	{
+	background: #fff;
+	border: 1px solid #cac7c7;
+	border-radius: 0 0 5px 5px;
+	border-top: none;
+	color: #444;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	height: 38px;
+	line-height: 18px;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 30px;
+	width: 208px;
+}
+.fieldwrap_2 input[type='submit']	{
+	background: url("../img/grad.png") repeat-x 0 -37px;
+	border: 1px solid #299400;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	height: 33px;
+	line-height: 33px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	width: 240px;
+}
+.fieldwrap_2 label	{
+	color: #808080;
+	font-size: 13px;
+	line-height: 13px;
+}
+.fieldwrap_2 a	{
+	color: #0059b3;
+	float: right;
+	font-size: 13px;
+	line-height: 13px;
+	margin: 5px 0 0 0;
+	width: auto;
+}
+.fieldwrap_2 a:hover	{
+	text-decoration: underline;
+}
+.fieldwrap_2:last-child a {
+	float:left;
+}
+.bg_regis .webmail_menu	{
+	position:absolute;
+	bottom:25px;
+}
+.icon_mail_gray	{
+	height: 11px;
+	left: 10px;
+	position: absolute;
+	top: 11px;
+	width: 16px;
+}
+.icon_lock	{
+	height: 16px;
+	left: 10px;
+	position: absolute;
+	top: 11px;
+	width: 16px;
+}
+.user-info img {
+	width: 45px;
+	height: 45px;
+}
+.span3{
+	margin-right: 140px;
+}
+.row-fluid.active {background-color: #e9eff3;}
